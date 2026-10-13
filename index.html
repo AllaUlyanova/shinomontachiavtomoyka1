@@ -22,7 +22,7 @@
 </style>
 <link rel="stylesheet" href="style-prod.css">
 </head>
-<body class="s-prod" id="top" data-wa="" data-tg="" data-max="">
+<body class="s-prod" id="top" data-wa="79035449278" data-tg="" data-max="">
 <header class="s-bar" data-s-bar>
   <a class="s-bar__brand" href="#top"><i aria-hidden="true"></i>Шиномонтаж и автомойка</a>
   <div class="s-bar__right">
@@ -41,17 +41,18 @@
       <figure class="s-hero__photo"><img class="" src="assets/hero.webp" alt="Павильон с белой светящейся вывеской «Мойка · Шиномонтаж» и надписью Hunter, вечер" loading="lazy" decoding="async" style="object-position:50% 30%"></figure>
     </div>
     <div class="s-hero__widget" id="widget"><form class="s-widget" data-s-booking data-days="7" data-closed="" data-slots="08:00,09:00,10:00,11:00,12:00,13:00,14:00,15:00,16:00,17:00,18:00,19:00,20:00,21:00" data-message="Здравствуйте! Хочу записаться: {услуга}, {день} в {время}." onsubmit="return false">
-      <h2 class="s-widget__title">Подберите время</h2>
+      <h2 class="s-widget__title">Онлайн-запись</h2>
       <fieldset><legend>Услуга</legend>
         <div class="s-chips s-chips--col"><label class="s-chip s-chip--row"><input type="radio" name="svc" value="0" data-name="Шиномонтаж легковой, 4 колеса" data-price="3300" data-from="1" data-min="" checked><span>Шиномонтаж легковой, 4 колеса</span><b>от 3 300 ₽</b></label><label class="s-chip s-chip--row"><input type="radio" name="svc" value="1" data-name="Шиномонтаж кроссовера, 4 колеса" data-price="4000" data-from="1" data-min=""><span>Шиномонтаж кроссовера, 4 колеса</span><b>от 4 000 ₽</b></label><label class="s-chip s-chip--row"><input type="radio" name="svc" value="2" data-name="Премиум на Hunter Elite" data-price="8000" data-from="1" data-min=""><span>Премиум на Hunter Elite</span><b>от 8 000 ₽</b></label><label class="s-chip s-chip--row"><input type="radio" name="svc" value="3" data-name="Ремонт прокола грибком" data-price="600" data-from="1" data-min=""><span>Ремонт прокола грибком</span><b>от 600 ₽</b></label><label class="s-chip s-chip--row"><input type="radio" name="svc" value="4" data-name="Автомойка, экспресс" data-price="500" data-from="1" data-min=""><span>Автомойка, экспресс</span><b>от 500 ₽</b></label></div>
       </fieldset>
       <fieldset><legend>День</legend><div class="s-chips" data-s-days></div></fieldset>
       <fieldset><legend>Время</legend><div class="s-chips" data-s-times></div></fieldset>
-      <div class="s-bubble" aria-live="polite"><span class="s-bubble__label">Назовите по телефону</span><p data-s-bubble></p></div>
+      <div class="s-bubble" aria-live="polite"><span class="s-bubble__label">Ваше сообщение</span><p data-s-bubble></p></div>
       <div class="s-send">
-        <a class="s-btn s-btn--wide" href="tel:+79035449278">Позвонить: +7 (903) 544-92-78</a>
+        <a class="s-btn s-btn--wide" data-s-msg="whatsapp" href="#">Записаться в WhatsApp</a>
         
       </div>
+      <p class="s-send__note" data-s-copied hidden>Текст скопирован – вставьте его в чат.</p>
       
     </form></div>
     <figure class="s-hero__bg" aria-hidden="true"><img class="" src="assets/hero.webp" alt="Павильон с белой светящейся вывеской «Мойка · Шиномонтаж» и надписью Hunter, вечер" decoding="async" style="object-position:50% 30%" fetchpriority="high"></figure>
@@ -170,7 +171,7 @@
   </section>
 
   <section class="s-section s-final s-reveal" id="contacts">
-    <header class="s-section__head"><h2>Запишитесь по телефону</h2></header>
+    <header class="s-section__head"><h2>Запишитесь в WhatsApp или по телефону</h2></header>
     <div class="s-contacts">
       <dl>
         <div><dt>Адрес</dt><dd>Маршала Чуйкова, 17, Москва</dd></div>
@@ -179,6 +180,7 @@
       </dl>
       <div class="s-contacts__actions">
         <a class="s-btn" href="#widget">Записаться</a>
+        <a class="s-btn s-btn--ghost" data-s-msg="whatsapp" href="#">WhatsApp</a>
         
       </div>
     </div>
